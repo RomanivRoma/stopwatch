@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stopwatch__container{
+    font-size: 35px;
+    font-weight: 900;
+    background: rgb(148, 185, 253);
+    border: 5px solid #000;
+    padding: 3px 20px;
+    border-radius: 9px;
+}
+.button__container{
+    display: flex;
+    gap: 10px;
+}
+.button__container button.stop{
+    background: linear-gradient(-25deg, rgba(18,116,7,1) 7%, rgba(255,255,255,1) 100%);
+}
+.button__container button.start{
+    background: linear-gradient(-25deg, rgb(7, 51, 116) 7%, rgba(255,255,255,1) 100%);
+}
+.button__container button.reset{
+    background: linear-gradient(-25deg, rgb(255, 4, 4) 7%, rgba(255,255,255,1) 100%);
+}
+.button__container button{
+    padding: 3px 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 3px solid rgb(59, 59, 59);
+    cursor: pointer;
+}
